@@ -1,21 +1,23 @@
 Numeral API for Scala.js
 ================================
-This is a Scala.js type-safe binding for [Numeral](https://www.npmjs.com/package/numeral)
+[numeral](https://www.npmjs.com/package/numeral) - Format and manipulate numbers.
 
-Format and manipulate numbers.
+### Description
 
-#### Build Dependencies
+A javascript library for formatting and manipulating numbers.
 
-* [ScalaJs.io v0.3.x](https://github.com/ldaniels528/scalajs.io)
+### Build Dependencies
+
+* [ScalaJs.io v0.3.x](https://github.com/scalajs-io/scalajs.io)
 * [SBT v0.13.13](http://www.scala-sbt.org/download.html)
 
-#### Build/publish the SDK locally
+### Build/publish the SDK locally
 
 ```bash
  $ sbt clean publish-local
 ```
 
-#### Running the tests
+### Running the tests
 
 Before running the tests the first time, you must ensure the npm packages are installed:
 
@@ -29,7 +31,7 @@ Then you can run the tests:
 $ sbt test
 ```
 
-#### Examples
+### Examples
 
 ##### Create
 
@@ -88,12 +90,12 @@ val string = Numeral(1000).format("0,0") // "1,000"
 | 1		        | "0o"          | 1st               |   
 | 100	        | "0o"	        | 100th             |
     
-#### Artifacts and Resolvers
+### Artifacts and Resolvers
 
-To add the Moment binding to your project, add the following to your build.sbt:  
+To add the `Numeral` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "numeral" % "0.3.0.3"
+libraryDependencies += "io.scalajs.npm" %%% "numeral" % "2.0.4"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
