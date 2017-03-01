@@ -1,6 +1,6 @@
 {
   "name": "numeral-sjs",
-  "version": "2.0.4",
+  "version": "2.0.4-2",
   "private": true,
   "dependencies": {
     "numeral": "^2.0.4",
