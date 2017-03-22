@@ -95,7 +95,7 @@ val string = Numeral(1000).format("0,0") // "1,000"
 To add the `Numeral` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "numeral" % "2.0.4-4"
+libraryDependencies += "io.scalajs.npm" %%% "numeral" % "0.4.0-pre1"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
